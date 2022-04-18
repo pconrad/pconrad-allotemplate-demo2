@@ -6,7 +6,7 @@
   cmake --build build/release -j 5
 )
 
-result=$?
-if [ ${result} == 0 ]; then
-  ./bin/app
-fi
+# result=$?
+# if [ ${result} == 0 ]; then
+#   ./bin/app
+# fi
